@@ -3,7 +3,7 @@
   background-color: white;
   color: black;
   height: 70vh;
-  padding: 100px 0 100px 0;
+  border: 2px solid red;
 }
 
 .about_description{
@@ -11,7 +11,8 @@
   flex-direction: column;
   justify-content: center;
   width: 55%;
-  padding: 0 100px 0 100px;
+  border: 2px solid blue;
+  
 }
 .about_title{
   margin-bottom: 30px;
@@ -19,6 +20,7 @@
 }
 .about_par{
   line-height: 1.5;
+  font-size: 20px;
 }
 
 .about_img{
@@ -26,4 +28,5 @@
   display: flex;
   overflow: hidden;
   align-self: center;
+  border: 2px solid green;
 }

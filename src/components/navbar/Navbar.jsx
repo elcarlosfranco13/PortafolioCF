@@ -7,7 +7,7 @@ const Navbar = ({scrollHeight}) => {
   }
 
   return (
-    <nav className={`navbar ${scrollHeight> 20 ? "scrolling" : null}`}>
+    <nav className={`navbar_set ${scrollHeight> 20 ? "scrolling" : null}`}>
       <div className='navbar_logo' onClick={totheTop}>Carlos Franco</div>
     </nav> 
   )

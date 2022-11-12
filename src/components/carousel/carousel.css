@@ -1,0 +1,12 @@
+.carousel__container{
+  max-width: 100%;
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+  border: 2px red solid;
+  display: flex;
+}
+
+.carousel__title{
+  font-size: 28px;
+  margin-bottom: 0;
+}
